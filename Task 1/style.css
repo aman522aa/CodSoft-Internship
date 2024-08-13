@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #9cf9b1;
+    color: #fff;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(1, 16, 8);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #d4e3d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+.hero h2{
+    font-size: 2.5rem;
+}
+  
+  .features {
+    display: flex;
+    background-size: contain;
+  }
+  .feature-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .feature-list-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+  }
+  .features img{
+    height: 25vw;
+    width: 25vw;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    padding: 50px;
+    background-color: #1a2a06;
+    color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+ button {
+    height: 25px;
+    width: 120px;
+    background-color: #1a2a06;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 20px;
+ }  
+ button a{
+    color: white;
+    cursor: pointer;
+ }
